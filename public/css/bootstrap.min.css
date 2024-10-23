@@ -3676,9 +3676,9 @@
     justify-content: space-between;
   }
   .navbar-brand {
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
+    padding-top: 0.75rem;
+    /* padding-bottom: 0.3125rem; */
+    /* margin-right: 1rem; */
     font-size: 1.25rem;
     white-space: nowrap;
   }
@@ -10019,4 +10019,3 @@
       display: none !important;
     }
   }
-  

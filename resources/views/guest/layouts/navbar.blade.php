@@ -1,8 +1,8 @@
- <!-- Navbar -->
- <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
     <div class="container">
         <a class="navbar-brand" href="{{route('home')}}">
-            <img src="{{asset("img/logo1.png")}}"  height="100%" alt="Logo Perusahaan"> <!-- Replace with your logo -->
+            <img src="{{asset("img/Logo.png")}}" height="75%" alt="Logo Perusahaan"> <!-- Replace with your logo -->
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,6 +26,6 @@
                 </li>
             </ul>
         </div>
-        
+
     </div>
 </nav>

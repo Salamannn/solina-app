@@ -1,7 +1,7 @@
 @extends('guest.layouts.app')
 
 @section('content')
-    
+
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <!-- Carousel End -->
@@ -101,7 +101,7 @@
         <div class="container about px-lg-0">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-4 ps-lg-0 wow fadeIn no-padding-mobile no-padding-tablet" data-wow-delay="0.1s"
-                    style="padding-top: 80px;">
+                    style="padding-top: 110px;">
                     <div class="d-flex justify-content-center align-items-center">
                         <img class="img-fluid w-50" src="{{asset("img/About.png")}}" style="object-fit: cover; max-width: 100%;"
                             alt="about pict">
@@ -118,7 +118,7 @@
                         <p>Therefore, PT KARYA PUTRI SOLINA is established in 2019 with a vision and mission to develop
                             friendly environmentally energy that can be reached and enjoyed by all people especially in
                             stranded areas in Indonesia at a cheaper price.</p>
-                        <a href="about.html" class="btn btn-primary rounded-pill py-2 px-3 mt-3 fw-normal">Explore
+                        <a href="{{ route('about') }}" class="btn btn-primary rounded-pill py-2 px-3 mt-3 fw-normal">Explore
                             More</a>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center align-items-center wow fadeInUp">
-                <a href="project.html" class="btn btn-primary rounded-pill py-2 px-3 mt-3 fw-normal">See More ...</a>
+                <a href="{{ route('project')}}" class="btn btn-primary rounded-pill py-2 px-3 mt-3 fw-normal">See More ...</a>
             </div>
         </div>
     </div>
@@ -220,51 +220,51 @@
     <!-- Partner Start -->
     <div class="container-xxl bg-light py-5">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <h2 class="mb-4">Our Partners</h2>
             </div>
             <div class="row g-5">
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.1s">
                     <div class="d-flex align-items-center mb-2">
                         <img class="img-fluid" src="{{asset("img/partner-1.jpg")}}" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.3s">
+                <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.3s">
                     <div class="d-flex align-items-center mb-2">
                         <img class="img-fluid" src="{{asset("img/partner-2.jpg")}}" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.5s">
                     <div class="d-flex align-items-center mb-2">
                         <img class="img-fluid" src="{{asset("img/partner-3.jpg")}}" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
+                <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
                         <img class="img-fluid" src="{{asset("img/partner-4.jpg")}}" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
+                <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
                         <img class="img-fluid" src="{{asset("img/partner-5.jpg")}}" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
+                <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
                         <img class="img-fluid" src="{{asset("img/partner-6.jpg")}}" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
+                <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
                         <img class="img-fluid" src="{{asset("img/partner-7.jpeg")}}" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
+                <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
                         <img class="img-fluid" src="{{asset("img/partner-8.jpg")}}" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
+                <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
                         <img class="img-fluid" src="{{asset("img/partner-9.jpg")}}" alt="">
                     </div>
@@ -273,14 +273,15 @@
         </div>
     </div>
     <!-- Partner Start -->
-    <!-- Feature Start -->
-    <div class="container-xxl py-5">
+
+    <!-- Message Start -->
+    <div class="container-xxl py-3">
         <div class="container feature px-lg-0">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-4 pe-lg-0 wow fadeIn p-5" data-wow-delay="0.5s" style="min-height: 400px;">
                     <div class="team-item rounded overflow-hidden">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="img/team-1.jpg" alt="">
+                            <img src="{{asset("img/founder.jpg")}}" class="img-fluid w-75" src="img/team-1.jpg" alt="">
                         </div>
                         <div class="p-4">
                             <h5>President Commissioner</h5>
@@ -288,17 +289,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 feature-text py-3 px-2 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <h3 class="text-primary">Founder Message</h3>
-                        <p class="my-4 pb-2">
+                <div class="col-lg-8 feature-text wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5">
+                        <i class="fa-solid fa-quote-left fa-4x" style="color: #E4E0E1;"></i>
+                        <h3 class="text-primary mt-4 ">Founder Message</h3>
+                        <p class="my-2 pb-2">
                             Indonesia is an archipelagic country endowed with abundant natural resources, including
                             fossil energy sources.
                             As we well known that fossil energy will be depleted and cannot be renewed. Moreover, there
                             are several fossil fuels that contribute to environmental pollution and provide a
                             green-house effect if not managed properly.
                         </p>
-                        <p class="mb-4 pb-2">
+                        <p class="mb-2 pb-2">
                             With my experiences in Oil and Gas Companies for more than 25 years at some various
                             Companies are ARCO Indonesia (Atlantic Richfield Bali North Inc.), BP Kangean Ltd., Energi
                             Mega Persada Tbk.,
@@ -308,23 +310,10 @@
                             can contribute actively to be able for developing the best for the Government of Indonesia
                             in the fulfillment of environmentally friendly energy, new and renewable energy.
                         </p>
-                        <div class="row g-4">
-                            <!-- <div class="col-6">
-                                    <div class="d-flex align-items-center">
-                                        <div class="btn-lg-square bg-primary rounded-circle">
-                                            <i class="fa fa-headphones text-white"></i>
-                                        </div>
-                                        <div class="ms-4">
-                                            <p class="mb-0">Customer</p>
-                                            <h5 class="mb-0">Support</h5>
-                                        </div>
-                                    </div>
-                                </div> -->
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Feature End -->
+    <!-- Message End -->
 @endsection

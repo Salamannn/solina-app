@@ -82,8 +82,8 @@
                         <p>Our Logo consists of 4 Colors that describe a burning
                             <span style="color: red;">Spirit</span>, a friendly
                             <span style="color: blue;">Energy</span>,
-                            <span style="color: greenyellow;">Environment</span> care, and giving
-                            <span style="color: yellow;">Wealth</span> to all people
+                            <span style="color: #6EC207;">Environment</span> care, and giving
+                            <span style="color: #F3C623;">Wealth</span> to all people
                         </p>
                     </div>
                 </div>

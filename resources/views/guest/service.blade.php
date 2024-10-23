@@ -68,6 +68,20 @@
                     </div>
                 </div>
             </div>
+            <div class="container-xxl bg-white py-5">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h3 class="mb-4">Renewable Energy</h3>
+                    </div>
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="border p-4 shadow rounded overflow-hidden">
+                            <div class="text-center text-black pt-0">
+                                <h6>Biogas, Compressed Natural Gas, Liquefied Natural Gas, Liquefied Petroleum Gas, Solar Cell, Wind Power</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Service End -->
