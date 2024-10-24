@@ -2,15 +2,16 @@
 
 @section('content')
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5" style="background-image: url({{ asset('img/banner.jpg') }})">
-        <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Projects</h1>
+    <div class="container-fluid bg-light py-2">
+        <div class="container">
             <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('home') }}">Home</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Projects</li>
+                <ol class="breadcrumb text" style="font-size: 15px;">
+                    <li class="breadcrumb-item"><a class="text-black" href="index.html">Home </a></li>
+                    <li class="breadcrumb-item"> / </li>
+                    <li class="breadcrumb-item text-black active" aria-current="page">Project Details</li>
                 </ol>
             </nav>
+            <h4 class="fw-medium text-blak mb-3 animated slideInDown">Project Details</h4>
         </div>
     </div>
     <!-- Page Header End -->
