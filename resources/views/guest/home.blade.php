@@ -1,7 +1,6 @@
 @extends('guest.layouts.app')
 
 @section('content')
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
@@ -19,7 +18,7 @@
                                     will have lost an opportunity to have invested
                                     in new energy and renewable energy.
                                 </p>
-                                <a href="{{route('wa')}}"
+                                <a href="{{ route('wa') }}"
                                     class="btn text-white btn-carousel rounded-pill py-2 px-4 animated slideInLeft fw-light">
                                     <i class="fa-brands fa-whatsapp pe-2"></i> Contact Us
                                 </a>
@@ -49,7 +48,7 @@
                             </div>
                             <h4 class="mb-3">Friendly Environmentally Energy & Renewable Energy Generation</h4>
                             <!-- <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                                <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -62,7 +61,7 @@
                             </div>
                             <h4 class="mb-3">Waste Management</h4>
                             <!-- <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                                <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -75,7 +74,7 @@
                             </div>
                             <h4 class="mb-3">R&D on Technology & Engineering</h4>
                             <!-- <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                                <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -88,7 +87,7 @@
                             </div>
                             <h4 class="mb-3">Oil & Gas Business Consultation</h4>
                             <!-- <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                                <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
+                                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -103,8 +102,8 @@
                 <div class="col-lg-4 ps-lg-0 wow fadeIn no-padding-mobile no-padding-tablet" data-wow-delay="0.1s"
                     style="padding-top: 110px;">
                     <div class="d-flex justify-content-center align-items-center">
-                        <img class="img-fluid w-50" src="{{asset("img/About.png")}}" style="object-fit: cover; max-width: 100%;"
-                            alt="about pict">
+                        <img class="img-fluid w-50" src="{{ asset('img/About.png') }}"
+                            style="object-fit: cover; max-width: 100%;" alt="about pict">
                     </div>
                 </div>
                 <div class="col-lg-8 about-text py-3 wow fadeIn" data-wow-delay="0.5s">
@@ -141,8 +140,8 @@
                         <div class="portfolio-btn">
                             <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
                                 href="img/img-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="project-detail.html"><i
-                                    class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
+                                href="project-detail.html"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="pt-3">
@@ -212,7 +211,8 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center align-items-center wow fadeInUp">
-                <a href="{{ route('project')}}" class="btn btn-primary rounded-pill py-2 px-3 mt-3 fw-normal">See More ...</a>
+                <a href="{{ route('project') }}" class="btn btn-primary rounded-pill py-2 px-3 mt-3 fw-normal">See More
+                    ...</a>
             </div>
         </div>
     </div>
@@ -226,47 +226,47 @@
             <div class="row g-5">
                 <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.1s">
                     <div class="d-flex align-items-center mb-2">
-                        <img class="img-fluid" src="{{asset("img/partner-1.jpg")}}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/partner-1.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.3s">
                     <div class="d-flex align-items-center mb-2">
-                        <img class="img-fluid" src="{{asset("img/partner-2.jpg")}}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/partner-2.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.5s">
                     <div class="d-flex align-items-center mb-2">
-                        <img class="img-fluid" src="{{asset("img/partner-3.jpg")}}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/partner-3.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
-                        <img class="img-fluid" src="{{asset("img/partner-4.jpg")}}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/partner-4.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
-                        <img class="img-fluid" src="{{asset("img/partner-5.jpg")}}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/partner-5.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
-                        <img class="img-fluid" src="{{asset("img/partner-6.jpg")}}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/partner-6.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
-                        <img class="img-fluid" src="{{asset("img/partner-7.jpeg")}}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/partner-7.jpeg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
-                        <img class="img-fluid" src="{{asset("img/partner-8.jpg")}}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/partner-8.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-2">
-                        <img class="img-fluid" src="{{asset("img/partner-9.jpg")}}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/partner-9.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -281,7 +281,8 @@
                 <div class="col-lg-4 pe-lg-0 wow fadeIn p-5" data-wow-delay="0.5s" style="min-height: 400px;">
                     <div class="team-item rounded overflow-hidden">
                         <div class="d-flex">
-                            <img src="{{asset("img/founder.jpg")}}" class="img-fluid w-75" src="img/team-1.jpg" alt="">
+                            <img src="{{ asset('img/founder.jpg') }}" class="img-fluid w-75" src="img/team-1.jpg"
+                                alt="">
                         </div>
                         <div class="p-4">
                             <h5>President Commissioner</h5>
@@ -316,4 +317,44 @@
         </div>
     </div>
     <!-- Message End -->
+
+    <div id="loading">
+        <div class="container d-flex justify-content-center align-items-center min-vh-100 flex-column flex-md-row">
+            <div class="d-flex flex-column align-items-center me-md-3">
+                <div class="d-flex">
+                    <img src="{{ asset('img/ssse1.png') }}" class="img-fluid" data-aos="fade-right" alt="">
+                    <img src="{{ asset('img/ssse2.png') }}" class="img-fluid" data-aos="fade-left" alt="">
+                </div>
+                <div class="d-flex">
+                    <img src="{{ asset('img/ssse3.png') }}" class="img-fluid" data-aos="fade-right" alt="">
+                    <img src="{{ asset('img/ssse4.png') }}" class="img-fluid" data-aos="fade-left" alt="">
+                </div>
+            </div>
+            <div class="mt-3 mt-md-0" id="text-container">
+                <img src="{{ asset('img/tulisan.png') }}" class="img-fluid" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" alt="">
+            </div>
+        </div>
+    </div>
+
+
 @endsection
+
+@push('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Inisialisasi AOS
+        AOS.init();
+
+        // Fungsi untuk menyembunyikan loading dan menampilkan konten utama
+        function showMainContent() {
+            // Sembunyikan animasi loading
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        // Tunda 3 detik, kemudian tampilkan konten utama
+        setTimeout(showMainContent, 2000); // 3000 ms = 3 detik
+    </script>
+@endpush

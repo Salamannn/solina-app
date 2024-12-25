@@ -18,6 +18,10 @@ class DashboardController extends Controller
         return view('guest.home');
     }
 
+    public function splash(){
+        return view('guest.splash');
+    }
+
     public function about(){
         return view('guest.about');
     }

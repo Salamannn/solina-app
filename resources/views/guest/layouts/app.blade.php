@@ -15,6 +15,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
+
+    {{-- animasi --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-tFZD9LqV3hsDSO8pJ6CJoi3hBlzEgPJAeNDzBzvVxm4kccUftAAG5srG9fpbQoST" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <style>
@@ -42,6 +49,31 @@
             transform: scale(1.1);
         }
 
+        /* Bagian animasi loading */
+        #loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f9fa;
+            z-index: 9999;
+        }
+
+        /* Konten utama disembunyikan selama loading */
+        #main-content {
+            display: none;
+        }
+
+        /* Menggeser dropdown ke arah kiri */
+        .dropdown-menu-right-adjust {
+            right: auto;
+            left: -100px;
+            /* Atur sesuai kebutuhan */
+        }
     </style>
 </head>
 
@@ -55,6 +87,8 @@
     <!-- Footer -->
     @include('guest.layouts.footer')
     <!-- End of Footer -->
+
+    @stack('scripts')
 
     <!-- WhatsApp Sticky Button -->
     <div class="whatsapp-sticky">

@@ -96,8 +96,10 @@
 }
 
 /*** Navbar ***/
+
+
 .navbar.sticky-top {
-    top: -100px;
+    top: 0;
     transition: .5s;
 }
 
@@ -175,7 +177,7 @@
 
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
-        position: relative;
+        /* position: relative; */
         min-height: 500px;
     }
 
@@ -282,7 +284,7 @@
 }
 
 .service-icon {
-    position: relative;
+    /* position: relative; */
     margin: -50px 0 25px 0;
     width: 100px;
     height: 100px;
